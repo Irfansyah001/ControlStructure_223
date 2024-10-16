@@ -29,3 +29,19 @@ nomor3 = input('Masukan nomor ketiga = ')
 
 terbesar = max(nomor1, nomor2, nomor3)
 print(f'nomor terbesar yaitu: {terbesar}')
+
+'''3. Write a PYTHON program to print Fibonacci series up to n!'''
+nomor_untuk_Fibonaci = int(input("Masukan nomor untuk Fibonaci: "))
+
+a, b = 0, 1
+print(a)
+while b <= nomor_untuk_Fibonaci:
+    print(b)
+    a, b = b, a + b
+
+'''4. Write a PYTHON program to print odd numbers up to n!'''
+nomor_untuk_menampilkan_ganjil = int(input("Masukkan rentang nomor untuk menyering angka ganjil saja: "))
+
+for nomor in range(1, nomor_untuk_menampilkan_ganjil + 1):
+    if nomor % 2 == 1: 
+        print(nomor)
