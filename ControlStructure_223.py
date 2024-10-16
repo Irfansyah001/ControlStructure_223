@@ -21,3 +21,11 @@ elif nilai >= 70:
     print('Good performance')
 else:
     print('average performance')
+
+'''2. Write a PYTHON program to find largest of three numbers!'''
+nomor1 = input('Masukan nomor pertama = ')
+nomor2 = input('Masukan nomor kedua = ')
+nomor3 = input('Masukan nomor ketiga = ')
+
+terbesar = max(nomor1, nomor2, nomor3)
+print(f'nomor terbesar yaitu: {terbesar}')
