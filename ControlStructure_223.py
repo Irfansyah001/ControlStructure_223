@@ -45,3 +45,24 @@ nomor_untuk_menampilkan_ganjil = int(input("Masukkan rentang nomor untuk menyeri
 for nomor in range(1, nomor_untuk_menampilkan_ganjil + 1):
     if nomor % 2 == 1: 
         print(nomor)
+
+'''5. Write a PYTHON program to produce following design
+
+    1
+
+    2 2
+
+    3 3 3
+
+    4 4 4 4 
+
+    5 5 5 5 5
+
+    If user enters n value as 5'''
+
+nomor_untuk_setengah_piramid = int(input("masukan nomor untuk membuat setengah piramid: "))
+
+for i in range(1, nomor_untuk_setengah_piramid + 1):
+    for j in range(i):
+        print(i, end=' ')
+    print()
